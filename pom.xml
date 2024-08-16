@@ -58,6 +58,7 @@
             <compilerArgs>
               <arg>-parameters</arg>
             </compilerArgs>
+            <release>17</release>
           </configuration>
         </plugin>
       </plugins>
@@ -77,10 +78,4 @@
       </modules>
     </profile>
   </profiles>
-  <repositories>
-     <repository>
-       <id>jitpack.io</id>
-       <url>https://jitpack.io</url>
-     </repository>
-   </repositories>
 </project>
