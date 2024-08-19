@@ -30,7 +30,7 @@
     <maven.compiler.release>17</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus.version>3.7.2</quarkus.version>
+    <quarkus.version>3.13.2</quarkus.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -78,4 +78,12 @@
       </modules>
     </profile>
   </profiles>
+  <!-- All your other configuration -->
+  <distributionManagement>
+    <repository>
+      <id>io.cloudrepo</id> <!-- Must Match the Unique Identifier in settings.xml -->
+      <name>My First Cloud Repo Repository</name>
+      <url>https://end2endlogic.mycloudrepo.io/repositories/end2endlogic-opensource-release</url>
+    </repository>
+  </distributionManagement>
 </project>
